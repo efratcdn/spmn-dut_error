@@ -1,10 +1,10 @@
 # spmn-dut_error
 
-Title : DUT Error Extensions
-Version : 1.0
-Requires : Specman {15.01..}
-Modified : December 2017
-Description :
+* Title : DUT Error Extensions
+* Version : 1.0
+* Requires : Specman {15.01..}
+* Modified : December 2017
+* Description :
 
 [ More e code examples in https://github.com/efratcdn/spmn-e-utils ]
 
