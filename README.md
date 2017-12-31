@@ -22,4 +22,6 @@ the dut_error_struct api
   check_effect()                         : check_effect;
   set_check_effect(effectcheck_effect);
 With combination of using reflection - you can get even more data about the calling struct.
+
+
 Running the example: specman -c 'load dut_error_usage_ex.e; test'
