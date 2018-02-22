@@ -11,7 +11,7 @@
 Extending the dut_error_struct, to perform actions when a DUT error is about to be reported.
 This code is an example, demonstrating the capabilities.
 You can edit it, according to your requirements and methodology.
-the dut_error_struct api
+The dut_error_struct api:
   get_check_name()                       : string;
   get_action_block_text()                : list of string;
   get_message()                          : string;
@@ -20,8 +20,10 @@ the dut_error_struct api
   source_struct_name()                   : string;
   source_method_name()                   : string;
   check_effect()                         : check_effect;
-  set_check_effect(effectcheck_effect);
+  set_check_effect(check_effect);
+  
 With combination of using reflection - you can get even more data about the calling struct.
 
 
-Running the example: specman -c 'load dut_error_usage_ex.e; test'
+Running the example: 
+       specman -c 'load dut_error_usage_ex.e; test'
